@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    background: #141A1A;
+}
+
+body > * {
+    padding: 0 50px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 8px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu__item a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: #0872BF;
+    transition: 0.3s;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.about-me {
+    padding-left: 100px;
+}
+
+.about-me h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 37px;
+    color: #0872BF;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 149.18%;
+}
+
+.profile__photo {
+    width: 500px;
+}
+
+.button {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    background: #0872BF;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #141A1A;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.button:hover {
+    color: #0872BF;
+    background: #FFFFFF;
+    box-shadow: 10px 5px 5px #0872BF;
+    transition: 1.5s;
+}
+
+.what-do {
+    display: grid;
+    justify-items: center;
+}
+
+.what-do ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.what-do h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 37px;
+    color: #0872BF;
+}
+
+.what-do li {
+    color: #FFFFFF;
+    padding: 50px;
+    box-shadow: 1px 1px 5px #0872BF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.what-do li:hover {
+    background: #0872BF;
+    box-shadow: 1px 1px 5px #FFFFFF;
+    color: #141A1A;
+}
